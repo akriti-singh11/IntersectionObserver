@@ -1,0 +1,22 @@
+.pictures{
+    position: relative;
+    top:700px;
+    left: 200px;
+}
+
+.img{
+    height: 250px;
+
+}
+
+.description{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap: 1rem;
+    margin: 10 12rem;
+}
+
+.lazy-image{
+    filter: blur(20px);
+}
